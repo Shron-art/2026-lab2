@@ -10,7 +10,6 @@
 
 1. При проверка подключения по SSH сработал только ssh т.к. на виртуальных терминалах установлен только зашифрованный канал управления. При команде telnet вышло сообщение: The current session has closed. Do you want to reestablish a new session with the previous session options?, что означает подключение отклонено.
 2. Dывод команды show ip interface Gi0/0
-```
 GigabitEthernet0/0 is up, line protocol is up (connected)
   Internet address is 192.168.20.2/24
   Broadcast address is 255.255.255.255
@@ -45,7 +44,7 @@ GigabitEthernet0/0 is up, line protocol is up (connected)
   WCCP Redirect outbound is disabled
   WCCP Redirect inbound is disabled
   WCCP Redirect exclude is disabled
-```
+
 IP-адрес R2 192.168.20.2/24
 
 2.1 Маршрут по умолчанию - 0.0.0.0/0
